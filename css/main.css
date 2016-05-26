@@ -1,0 +1,142 @@
+/******************************************************
+Overall Styling
+******************************************************/
+body {
+	font-family: tahoma, sans-serif;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+} 
+ul {
+  list-style: none; /* removes link underlines) */
+  margin: 0 10px;
+  padding: 0;
+}
+h1 {
+	font-size: 1.75rem
+}
+
+/******************************************************
+.background puts a static image in the background inside the div
+******************************************************/
+.background {
+    z-index: -100; /* to keep bg image BEHIND everything else*/
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/******************************************************
+#wrapper is for MAIN DIV 
+(essentially "BODY" between header/footer)
+******************************************************/
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/******************************************************
+Styling for the "Faux poster"
+******************************************************/
+#indexImage {
+	background-color: black;
+}
+.headline {
+	text-align: center;
+	color: #FCFFFF;
+	margin: 20px auto 5px;
+  padding: 7.5% 7.5% 1% 7.5%;
+	background-color: black;
+	box-shadow: 0px 3px 4px grey,0px 10px 16px rgba(050,50,050,.5);
+}
+.headline h1 {
+	font-size: 2.5rem;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.headline h4 {
+	font-size: 1.1rem;
+	margin-top: 0px;
+}
+
+/******************************************************
+Paragraph styling for the .paratext CLASS
+******************************************************/
+.paratext {
+	text-align: center;
+	margin: 25px 15%;
+	color: #D14C00;
+}
+.paratext h3 {
+	display: inline;
+}
+.paratext span {
+	color: #006665;
+	font-style: italic;
+}
+
+/********************************
+LIST ITEM (Image layout) styling
+********************************/
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: lightgrey;
+  color: RGBA(000, 102, 101, .7);
+	box-shadow: 0px 1px 2px grey,0px 7px 12px rgba(050,50,050,0.2);
+}
+#gallery li p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75rem;
+  color: RGBA(000, 102, 101, .7);
+}
+#gallery li:hover {
+	/*box-sizing: border-box;*/
+	box-shadow: 0px 1px 2px rgba(000, 255, 252,1),0px 7px 12px rgba(000, 255, 252,0.5),0px 2px 20px rgba(000, 255, 252,0.8);
+	background-color: #FCFFFF;
+  color: black;
+}
+#gallery li p:hover {
+  /*font-size: 0.8rem;*/
+  color: black;
+}
+#gallery li {
+  float: left;
+  width: 23%;
+  margin: 1%;
+  background-color: lightgrey;
+  color: RGBA(000, 102, 101, .7);
+	box-shadow: 0px 1px 2px grey,0px 7px 12px rgba(050,50,050,0.2);
+}
+
+#gallery li p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75rem;
+  color: RGBA(000, 102, 101, .7);
+}
+
+
+/********************************
+MEDIA QUERIES FOR SMALL SCREENS  -- NO REGULAR CSS BELOW HERE!
+********************************/
+@media only screen and (max-width: 600px) {
+#gallery li {
+  width: 45%;
+  margin: 2.5%;
+}
+#gallery li p {
+}
+
+
