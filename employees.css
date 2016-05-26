@@ -101,3 +101,8 @@ h3	{
 .ePics2:hover {
 	box-shadow: 7px 6px 32px 25px rgba(0,0,0,0.75);
 }
+
+.footerFix {
+  margin: 30px;
+  clear: both;
+}
