@@ -64,7 +64,7 @@ var hope = [
 
 // create a variable to hold an empty string where divs will be stored
 var hopeWall = "";
-
+var content = document.getElementById('container');
 
 
 // create loop that will iterate through each key and value pair
@@ -76,5 +76,5 @@ for (i = 0; i < hope.length; i++) { /*get name value*/
 	hopeWall += "<h3 class='hopePrice'>" + hope[i].price + "</h3>";
 	hopeWall += "</div>"
 }
-document.write(hopeWall);
+content.innerHTML = hopeWall;
 
