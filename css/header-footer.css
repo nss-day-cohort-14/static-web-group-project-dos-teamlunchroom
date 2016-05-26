@@ -122,6 +122,11 @@
 }
 
 .footerFix {
-  margin: 100px;
+  margin: 25px;
+  clear: both;
+}
+
+.headerFix {
+  margin: 50px;
   clear: both;
 }

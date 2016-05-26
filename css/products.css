@@ -1,0 +1,53 @@
+
+
+.frame {
+	display: inline-block;
+	margin: 15px;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.frame:: nth-child(1) {
+	display: inline-block;
+	float: left;
+}
+
+
+.hopeName {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.hopeImg {
+	display: block;
+}
+
+.hopeDes {
+	text-align: justify;
+}
+
+.hopePrice {
+ border-top: 2px solid black;
+ background-image: linear-gradient( to top right, white, #392613);
+}
+
+.hopeImg img{
+	height: 100%;
+	width: 100%;
+}
+
+/*media queries*/
+
+@media (min-width: 700px) {
+ .frame {
+ 		width: 45%;
+ 		margin: 2.5%
+ }
+}
+
+
+@media (min-width: 900px) {
+	.frame {
+		width: 30%;
+	  margin: 0 1.6666% 0 1.6666%;
+	}
+}
