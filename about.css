@@ -42,6 +42,7 @@ fieldset {
     background-color: #006665;
     color: white;
     float: left;
+    margin-right: o;
 }
 
 input[type=text] {
@@ -50,6 +51,8 @@ input[type=text] {
     margin: 15px 0;
     box-sizing: border-box;
 }
+
+
 
 .map { 
 	margin-left: 5%;
@@ -60,6 +63,7 @@ input[type=text] {
     padding-bottom: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    margin-right: 0;
  }
 
 .contact-info {
@@ -69,6 +73,10 @@ input[type=text] {
 	font-size: 20px;
 	text-align: center;
 	color: #006665;
+}
+
+.form {
+	height: 420px;
 }
 
 a:link {
@@ -126,7 +134,19 @@ a:visited {
 }
 
 .bottom { 
-	background-color: rgba(209, 076, 000, 0.5); }
+	background-color: rgba(209, 076, 000, 0.5); 
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.footerFix {
+  margin: 10px;
+  clear: both;
+}	
+
+.headerFix {
+	margin-top: 100px;
+}
 
 /*
 @media screen  and (min-width: 480px) {
