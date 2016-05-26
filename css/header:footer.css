@@ -1,0 +1,126 @@
+/*  Begin header base styles*/
+
+.header {
+  box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  background: rgba(209, 76, 0, 0.7);
+  position: fixed;
+  top: 0;
+}
+
+.mainHeader h4 {
+  display: inline;
+  color: #FCFFFF;
+  font-size: 50px;
+}
+
+.header img {
+  width: 6rem;
+  height: 3.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: .5rem;
+}
+
+.header ul {
+  padding: 0;
+  margin: 0 1rem;
+  float: right;
+}
+
+.header li {
+  display: inline-block;
+  padding: 4rem 2rem 0 0;
+  color: #FCFFFF;
+}
+
+.header a {
+  text-decoration: none;
+  color: #FCFFFF;
+  padding: 0 2rem;
+}
+
+.mainHeader {
+  display: inline;
+}
+
+.header a:hover {
+  background: #FCFFFF;
+  color: #006665;
+  text-decoration: overline overline;
+  border: .2rem solid black;
+  border-radius: 10px;
+}
+
+
+/*  footer element base styles  */
+
+
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  background: rgba(209, 76, 0, 0.4);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer ul {
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+  padding: 1em 1em;
+}
+
+.footer li {
+   display: inline-block;
+   text-decoration: none;
+   color: #FCFFFF;
+   padding: 0 1.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FCFFFF;
+}
+
+.footer img {
+  max-height: 1.5rem;
+  max-width: 2rem;
+}
+
+.footer a:hover {
+  background: #FCFFFF;
+  color: #006665;
+  padding: .5rem 2rem;
+  text-decoration: overline overline;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.copyRight {
+  text-align: left;
+}
+
+.socialLinks {
+  float: right;
+}
+
+.socialLinks li {
+  padding: 0 .5rem;
+}
+
+.socialLinks img:hover {
+  color: #006665;
+  background: #FCFFFF;
+  cursor: crosshair;
+  padding: 0 1rem;
+  border: .2rem solid black;
+  border-radius: 10px;
+}
+
+.footerFix {
+  margin-top: 70px;
+}
