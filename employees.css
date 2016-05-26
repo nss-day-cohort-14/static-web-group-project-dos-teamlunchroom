@@ -1,0 +1,103 @@
+
+
+.pageHeader {
+	text-align: center;
+	vertical-align: center;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+#eContainer {
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.eContainer0 {
+	height: 10rem;
+	width: 100%;
+	background-color: #006665;
+	color: #fff;
+}
+
+
+.eContainer1 {
+	height: 35rem;
+	width: 100%;
+	background-color: #FCFFFF;
+	color: rgb(242, 166,122);
+}
+
+.eContainer2 {
+	height: 35rem;
+	width: 100%;
+	background-color: #F2A67A;
+	color: rgb(0, 102, 101);
+}
+
+.eCard {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.eHeader1 {
+	text-align: center;
+	margin: 0;
+	padding-top: 28px;
+	size: 20px;
+}
+
+.eHeader2 {
+	text-align: center;
+	color: #347E82;
+	margin: 0;
+	padding-top: 28px;
+}
+
+.ePics1 {
+	border-radius: 50%;
+	border: 8px #fff solid;
+	display: block;
+	margin: 28px auto;
+	padding: 0px;
+}
+
+.ePics2 {
+	border-radius: 50%;
+	border: 8px #006665 solid;
+	display: block;
+	margin: 28px auto;
+	padding: 0px;
+}
+
+h3	{ 
+	font-size: 25px;
+	font-style: bold;
+	 }
+
+.eDescrip1 {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 28px;
+	font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.eDescrip2 {
+	text-align: center;
+	color: black;
+	margin: 0;
+	padding-bottom: 28px;
+	font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.ePics1:hover {
+	box-shadow: 7px 6px 32px 25px rgba(209, 076, 000, 0.5);
+}
+
+.ePics2:hover {
+	box-shadow: 7px 6px 32px 25px rgba(0,0,0,0.75);
+}
