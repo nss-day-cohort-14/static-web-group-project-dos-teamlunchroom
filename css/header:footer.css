@@ -122,5 +122,6 @@
 }
 
 .footerFix {
-  margin-top: 70px;
+  margin: 100px;
+  clear: both;
 }
